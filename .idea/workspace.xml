@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a891bfc4-d9f6-43d0-b970-fe7a415b6a2e" name="Changes" comment="первые 3 задания дз">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks5/dz.java" afterDir="false" />
+    <list default="true" id="a891bfc4-d9f6-43d0-b970-fe7a415b6a2e" name="Changes" comment="готовое дз">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeworks/dz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks/dz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeworks5/dz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks5/dz2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.dz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homeworks5.dz.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.dz.executor": "Run",
+    "Application.dz2.executor": "Debug",
+    "Application.homeworks5.dz.executor": "Run",
+    "Application.task1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.dz">
+}]]></component>
+  <component name="RunManager" selected="Application.dz2">
     <configuration name="dz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworks.dz" />
       <module name="java-basic-homeworks" />
@@ -64,8 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeworks5.dz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks5.dz" />
+    <configuration name="dz2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks5.dz2" />
+      <module name="java-basic-homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks5.task1" />
       <module name="java-basic-homeworks" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dz2" />
+        <item itemvalue="Application.task1" />
         <item itemvalue="Application.dz" />
-        <item itemvalue="Application.homeworks5.dz" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705942660697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="готовое дз">
+      <option name="closed" value="true" />
+      <created>1706703549644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706703549644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +176,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="первые 3 задания дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="первые 3 задания дз" />
+    <MESSAGE value="готовое дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="готовое дз" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homeworks5/dz2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homeworks5/dz2.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="rey.length /2" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
